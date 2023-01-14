@@ -34,18 +34,12 @@ Diskutieren Sie eventuelle Unterschiede zum theoretisch ermittelten Ergebnis.
 #### Gruppen Größe = 2  und Paketverlustwahrscheinlichkeit = 0.1
 
 9.8% Pakete Verloren
-20.4% der verloren Pakete nicht korrigierbar obwohl theoretisch bei nur ungefähr 3 % auftreten sollte
-Untersuchung -> bei der Hälfte dieser Fälle ist beim Zeitunkt der prüfung auf korrigierbarkeit
-das FEC Packet nicht vorhanden, was genau der Diskrepanz entspricht
-
-Test mit k=6 -> auch doppelte Erwartete Restfehlerwahrscheinlichkeit
+20.4% der verloren Pakete nicht korrigierbar
 
 #### Gruppen Größe = 48  und Paketverlustwahrscheinlichkeit = 0.1
 
 10.3%* Pakete verloren
 99% nicht korrigierbar, stimmt mit theoretischem Wert überein
-
-
 
 
 ## Kompatibilität
