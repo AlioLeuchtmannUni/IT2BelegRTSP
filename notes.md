@@ -24,6 +24,7 @@ Diskutieren Sie eventuelle Unterschiede zum theoretisch ermittelten Ergebnis.
 #### x meint hier die Kanalfehlerwahrscheinlichkeit, y die Restfehlerwarhscheinlichkeit
 
 ![img_1.png](img_1.png)
+#### Legende: k aufsteigen von unten nach oben analog zu Funktionen, unterste k=2, oberste k=48
 
 ### praktisch Ermittelt:
 
@@ -31,17 +32,17 @@ Diskutieren Sie eventuelle Unterschiede zum theoretisch ermittelten Ergebnis.
 
 9.8% Pakete Verloren
 20.4% der verloren Pakete nicht korrigierbar
--> Rest Fehlerwahrscheinlihckeit: 0.204 * 0.098 = 0.019992
+-> Restfehlerwahrscheinlichkeit: 0.204 * 0.098 = 0.019992
 
 #### Gruppen Größe = 48  und Paketverlustwahrscheinlichkeit = 0.1
 
-10.3%* Pakete verloren
+10.3% Pakete verloren
 99% nicht korrigierbar, stimmt mit theoretischem Wert überein
--> Rest Fehlerwahrscheinlihckeit: 0.103 * 0.99 = 0.10197
+-> Restfehlerwahrscheinlichkeit: 0.103 * 0.99 = 0.10197
 
 
 #### Fazit:
-Praktische und theoretische Werte stimmen weit genug überein um die diskrepanz als Statistischen Fehler abzutun.
+Praktische und theoretische Werte stimmen weit genug überein um die diskrepanz als statistischen Fehler abzutun.
 
 ## Kompatibilität
 Prüfen Sie die Kompatibilität des Clients und Servers mit dem VLC-Player und versuchen Sie eventuelle Probleme zu analysieren.
@@ -57,3 +58,10 @@ Ich fände es deutlich interessanter wenn man den Beleg komplett alleine Program
 und als Alternative Prüfungsleistung verwenden könnte.
 So wie eder Beleg aktuell aufgebaut ist finde ich bringt er nicht gerade viel Mehrwert.
 Bis auf den vergleich der Theoretischen Berechnungen und den praktischen Erfahrungen.
+
+
+
+### Anmerkungen
+
+getestet habe ich unter Windows 11  mit dem htw video htw.mjpeg
+da das Archiv mit dem Video zu groß wird habe ich es aus der zip datei genommen
